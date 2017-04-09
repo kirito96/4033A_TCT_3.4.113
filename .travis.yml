@@ -5,14 +5,14 @@ before_install:
   - export CROSS_COMPILE=$PWD/toolchain/bin/arm-eabi-
   - sudo apt-get -qq update
   - sudo apt-get install -y build-essential kernel-package libncurses5-dev bzip2
-  - chmod +x k982t.sh
+  - chmod +x buildkernel.sh
   
 
 # we're not installing anything
 install: true
 
 script:
-  - ./k982t.sh
+  - ./buildkernel.sh
 
 deploy:
   provider: releases
