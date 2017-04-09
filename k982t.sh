@@ -1,10 +1,9 @@
 #!/usr/bin/env bash
 
-cd ~/android/kernel/982t
-export CROSS_COMPILE=/home/kirito9/android/toolchain/arm-eabi-5.3/bin/arm-eabi-
-cd ~/android/kernel/982t/kernel
-make mrproper
-cd ../
+#export CROSS_COMPILE=/home/kirito9/android/toolchain/arm-eabi-5.3/bin/arm-eabi-
+#cd ~/android/kernel/982t/kernel
+#make mrproper
+#cd ../
 export ARCH=arm
 #./makeMtk mts982t n k
 ./makeMtk -t -o=TARGET_BUILD_VARIANT=user mts982t n k
