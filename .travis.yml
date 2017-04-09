@@ -17,7 +17,7 @@ script:
 deploy:
   provider: releases
   #api_key: "$GIT_OAUTH_TOKEN_RAHMY5"
-  file: "$PWD/out/target/product/mts982t/obj/KERNEL_OBJ/arch/arm/boot/zImage"
+  file: "$PWD/out/target/product/4033gtk/obj/KERNEL_OBJ/arch/arm/boot/zImage"
   skip_cleanup: true
   on:
     tags: true
