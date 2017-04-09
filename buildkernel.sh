@@ -6,7 +6,7 @@
 #cd ../
 export ARCH=arm
 #./makeMtk mts982t n k
-./makeMtk -t -o=TARGET_BUILD_VARIANT=user mts982t n k
+./makeMtk -t -o=TARGET_BUILD_VARIANT=user 4033gtk n k
 
 #Customizing kernel
 #cd ~/android/kernel/982t/kernel
